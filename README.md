@@ -4,6 +4,14 @@ This is a simple Python script for checking directory traversal vulnerabilities 
 
 ## Usage
 
+# 1. Checking a single URL:
+ 
+`python3 etc-passwd-finder.py --single http://example.com`
+
+# 2. Checking a urls file :
+
+`python3 etc-passwd-finder.py --file urls.txt`
+
 
 
 ## Generate URLs using `waybackurls` and check for etc/passwd file in Urls:
@@ -14,7 +22,7 @@ This is a simple Python script for checking directory traversal vulnerabilities 
 ### Prerequisites
 - Python 3.x
 - Requests library (`pip install requests`)
-- 
+- argparse library (`pip install argparse`)
 
 ### Command-line Arguments
 
@@ -24,15 +32,6 @@ This is a simple Python script for checking directory traversal vulnerabilities 
 - `--hide`: If provided, it hides non-200 responses.
 - `--help`: If provided, it prints all available options.
 
-### Examples
-
-1. Checking a single URL:
- 
-   python3 etc-passwd-finder.py --single http://example.com
-
-2. Checking a urls file :
-
-   python3 etc-passwd-finder.py --file urls.txt
 
    
 
