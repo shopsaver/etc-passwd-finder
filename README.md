@@ -6,11 +6,11 @@ This is a simple Python script for checking directory traversal vulnerabilities 
 
 # 1. Checking a single URL:
  
-`python3 etc-passwd-finder.py --single http://example.com`
+`python3 etc-passwd-finder.py --single http://example.com  --iterations 20 `
 
 # 2. Checking a urls file :
 
-`python3 etc-passwd-finder.py --file urls.txt`
+`python3 etc-passwd-finder.py --file urls.txt --iterations 20 `
 
 
 
