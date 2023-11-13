@@ -4,6 +4,15 @@ This is a simple Python script for checking directory traversal vulnerabilities 
 
 ## Usage
 
+  ` git clone https://github.com/shopsaver/etc-passwd-finder/`
+  
+  ` cd etc-passwd-finder `
+  
+  ` pip install -r  requirements.txt`
+  
+  `python3 etc-passwd-finder.py -help`
+  
+
 # 1. Checking a single URL:
  
 `python3 etc-passwd-finder.py --single http://example.com  --iterations 20 `
